@@ -6,3 +6,6 @@ REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Security Center\Provider\Fw\{7
 REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Custom\SophosNtpUninstall.exe" /f
 REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\SophosNtpUninstall.exe" /f
 REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\SophosNtpUninstall.exe" /f
+
+
+rd /s /q "%AppData%\Local\Sophos"

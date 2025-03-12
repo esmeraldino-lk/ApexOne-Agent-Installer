@@ -2,6 +2,7 @@
 :: Clearing folders
 rd /s /q "C:\Program Files\Trend Micro"
 rd /s /q "C:\Program Files (x86)\Trend Micro"
+rd /s /q "C:\ProgramData\Trend Micro"
 
 :: Clearing regedit
 REG DELETE "HKLM\SOFTWARE\TrendMicro" /f
