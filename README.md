@@ -1,6 +1,6 @@
 <img src="https://learn.microsoft.com/pt-br/windows/msix/images/trend_micro-lightmode.png" width="200" title="Ray Romano saying What do you think?" alt="Ray Romano saying What do you think?"/>
 
-# Apex One agent installer TroubleShoot
+# Apex One agent TroubleShoot
 [![language](https://img.shields.io/badge/language-powershell-239120)](https://learn.microsoft.com/ru-ru/dotnet/csharp/tour-of-csharp/overview)
 [![GitHub last commit](https://img.shields.io/github/last-commit/esmeraldino-lk/ApexOne-Agent-Installer)](#)
 
