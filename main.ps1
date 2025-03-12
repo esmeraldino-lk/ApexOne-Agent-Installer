@@ -85,6 +85,11 @@ function DeleteTrendMicroFiles{
     }
 }
 
+function ExitBanner{
+    Write-Host "[!] Done, install your agent again " -ForegroundColor Green
+}
+
 Banner
 TrendConnection
 DeleteTrendMicroFiles
+ExitBanner
