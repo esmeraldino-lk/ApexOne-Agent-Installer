@@ -1,4 +1,9 @@
 @echo off
+:: Clearing folders
+rd /s /q "C:\Program Files\Trend Micro"
+rd /s /q "C:\Program Files (x86)\Trend Micro"
+
+:: Clearing regedit
 REG DELETE "HKLM\SOFTWARE\TrendMicro" /f
 REG DELETE "HKLM\SOFTWARE\WOW6432Node\TrendMicro" /f
 REG DELETE "HKLM\SYSTEM\CurrentControlSet\Services\TmFilter" /f
@@ -18,3 +23,5 @@ REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\TrendMicro\Deep Security Age
 REG DELETE "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\EventLog\Application\Deep Security Agent" /f
 REG DELETE "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet002\Services\EventLog\Application\Deep Security Agent" /f
 REG DELETE "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EventLog\Application\Deep Security Agent" /f
+
+
