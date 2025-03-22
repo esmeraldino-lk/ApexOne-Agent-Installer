@@ -26,9 +26,6 @@ This script has made to fix the Trend Micro Apex One Server errors after install
 # 📝 How to use
 
 
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
 1. Run uninstaller tool from 3rd party Anti-Virus (Ex: Sophos)
 
 2. Run uninstaller tool from Trend-Micro [Uninstaller Page](https://portal.xdr.trendmicro.com/index.html#/app/ves-inventory?drawer=agent-uninstaller)
